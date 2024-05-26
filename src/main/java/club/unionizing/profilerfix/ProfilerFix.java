@@ -1,13 +1,13 @@
-package com.github.unionizing.profilerfix;
+package club.unionizing.profilerfix;
 
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = "profilerfix", useMetadata=true)
-public class ExampleMod {
+@Mod(modid = "Profiler Fix", useMetadata=true)
+public class ProfilerFix {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        System.out.println("Dirt: " + Blocks.dirt.getUnlocalizedName());
+        System.out.println("[Profiler Fix] FMLInitializationEvent called.");
     }
 }
